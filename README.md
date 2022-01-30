@@ -1,7 +1,5 @@
 # change-service
 
-# Getting Started
-
 ## Reference Documentation
 
 ### BitBucket URL:
