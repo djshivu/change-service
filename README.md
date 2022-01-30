@@ -8,8 +8,6 @@
 
 ### Endpoint: http://localhost:8080/change-service/change
 
-### BasicAuth:
-
 ### Softwares/Tools/Plugins/Libraries Used:
 Java 11
 Spring Boot 2.6.3
