@@ -19,6 +19,10 @@
 8) Jupiter(Junit 5) - Unit test cases
 9) PostMan - To test Rest API's
 
+### Quick Overview on Solution:
+As a quick solution, I have used a static list of coins to perform the operation. This can be upgraded to using an in-memory database(h2)
+for better maintenance of the coin's availability status and also to maintain the transactional status of the coins.
+
 ### Needs to be improved
 1) Adding headers to the service. RequestId, AuthTokens etc..
 2) Adding security to the service
