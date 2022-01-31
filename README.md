@@ -9,14 +9,22 @@
 ### Endpoint: http://localhost:8080/change-service/change
 
 ### Softwares/Tools/Plugins/Libraries Used:
-Java 11
-Spring Boot 2.6.3
-Maven 3.8.4
-SonarLint(Eclipse Plugin) - For code quality
-EclEmmaEclipse Plugin) - For code coverage
-Logback - For Logging
-OpenAPI/Swagger - Documenting the service 
-PostMan - To test Rest API's
+###Java 11
+###Spring Boot 2.6.3
+###Maven 3.8.4
+###SonarLint(Eclipse Plugin) - For code quality
+###EclEmmaEclipse Plugin) - For code coverage
+###Logback - For Logging
+###OpenAPI/Swagger - Documenting the service 
+###PostMan - To test Rest API's
+
+### Needs to be improved
+1) Adding headers to the service. RequestId, AuthTokens etc..
+2) Adding security to the service
+3) Logic to get the change should be improved for better performance.
+4) Code coverage needs to improved to meet > 80%
+5) Yet to resolve few SonarLint code quality issues.
+6) Need to use database for maintaining the coin availability status and to handle the transactional status.
 
 ### Assignment
 Create a Spring Boot service that exposes a REST API that allows a user to request change for a given bill. The service should assume there are a finite number of coins. 
