@@ -24,7 +24,7 @@ public class CoinStatusController {
     this.daoService = daoService;
   }
 
-  @ApiOperation(value = "This change API takes the bill as input and provides the changes in coins",
+  @ApiOperation(value = "This API provides the current status of the coins avialability.",
       produces = MediaType.APPLICATION_JSON_VALUE, response = ChangeResponse.class)
   @GetMapping("/coin")
   public ResponseEntity<List<CoinEntity>> getCoinStatus() {
