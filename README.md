@@ -6,7 +6,9 @@
 
 ### Service Documentation(Swagger URL) : http://localhost:8080/change-service/swagger-ui.html
 
-### Endpoint: http://localhost:8080/change-service/change
+### Service Endpoint: http://localhost:8080/change-service/change
+
+### PostMan Collection: change-service.postman_collection (Can be found on github change-service root directory)
 
 ### Softwares/Tools/Plugins/Libraries Used:
 1)Java 11
