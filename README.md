@@ -9,14 +9,15 @@
 ### Endpoint: http://localhost:8080/change-service/change
 
 ### Softwares/Tools/Plugins/Libraries Used:
-###Java 11
-###Spring Boot 2.6.3
-###Maven 3.8.4
-###SonarLint(Eclipse Plugin) - For code quality
-###EclEmmaEclipse Plugin) - For code coverage
-###Logback - For Logging
-###OpenAPI/Swagger - Documenting the service 
-###PostMan - To test Rest API's
+1)Java 11
+2)Spring Boot 2.6.3
+3)Maven 3.8.4
+4)SonarLint(Eclipse Plugin) - For code quality
+5)EclEmmaEclipse Plugin) - For code coverage
+6)Logback - For Logging
+7)Swagger - Documenting the service
+8) Jupiter(Junit 5) - Unit test cases
+9) PostMan - To test Rest API's
 
 ### Needs to be improved
 1) Adding headers to the service. RequestId, AuthTokens etc..
